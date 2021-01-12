@@ -1,0 +1,13 @@
+food = "bagel"
+is_delicious = true
+food = "pasta"
+
+num2 = 2
+num7 = 7
+quotient = num7 / num2
+
+songs = ["Never Gonna Give You Up", "Break Ya Neck", "Like a Prayer"]
+songs.shift
+#puts songs
+
+puts "How many characters are there in the food string? Answer: #{food.length}"
