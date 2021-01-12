@@ -7,8 +7,8 @@ base_cook_pay_hr: 12.00
 hiring: true  
 
 Methods:  
-clock_in: increases num_cooks_clocked_in  
-clock_out: decreases num_cooks_clocked_in  
-hire_cook: adds first_name and last_name to cooks_on_staff  
+clock_in: increases num_cooks_clocked_in to 4
+clock_out: decreases num_cooks_clocked_in  to 2
+hire_cook: adds Sirius Black to cooks_on_staff  
 raise_base_cook_pay: increases base cook pay from 12.00  
 is_hiring: returns true  
