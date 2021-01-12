@@ -1,16 +1,16 @@
 Class: KitchenStaff  
 
 Attributes:
-num_cooks_clocked_in (integer)
-cooks_on_staff (hash)
+num_cooks_clocked_in (integer)  
+cooks_on_staff (hash)  
 base_cook_pay_hr (float)  
-hiring (boolean)
+hiring (boolean)  
 
 
-Methods:
+Methods:  
 
-clock_in: modifies num_cooks_clocked_in
-clock_out: modifies num_cooks_clocked_in
-hire_cook: modifies cooks_on_staff
-raise_base_cook_pay: increases base_cook_pay
-is_hiring: modifies hiring to true
+clock_in: modifies num_cooks_clocked_in  
+clock_out: modifies num_cooks_clocked_in  
+hire_cook: modifies cooks_on_staff  
+raise_base_cook_pay: increases base_cook_pay  
+is_hiring: modifies hiring to true  
