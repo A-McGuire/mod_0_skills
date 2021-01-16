@@ -4,7 +4,7 @@ Attributes:
 
 is_open (boolean)  
 bar_booze_inventory (hash)  
-bar_staff (hash)  
+bar_staff (array)  
 num_bartenders_clocked_in (integer)  
 
 Methods:  
